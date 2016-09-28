@@ -67,13 +67,10 @@ public class MainViewModel implements ViewModel {
         return repositories;
     }
 
-    public void setDataListener(DataListener dataListener) {
-        this.dataListener = dataListener;
-    }
-
     @Override
     public void destroy() {
-        if (subscription != null && !subscription.isUnsubscribed()) subscription.unsubscribe();
+        if (subscription != null && !subscription.isUnsubscribed())
+            subscription.unsubscribe();
         MyApplication.get(context).saveSearchHint(editTextUsernameValue);
         subscription = null;
         context = null;
@@ -132,7 +129,7 @@ public class MainViewModel implements ViewModel {
                         progressVisibility.set(View.INVISIBLE);
                         if (!repositories.isEmpty()) {
                             recyclerViewVisibility.set(View.VISIBLE);
-                            application.saveRepoList(repositories);
+                            MyApplication.get(context).saveRepoList(repositories);
                         } else {
                             infoMessage.set(context.getString(R.string.text_empty_repos));
                             infoMessageVisibility.set(View.VISIBLE);

@@ -62,7 +62,7 @@ public class RepoViewModel implements ViewModel {
         if (subscription != null && !subscription.isUnsubscribed()) subscription.unsubscribe();
     }
 
-    @BindingAdapter({"imageUrl"})
+    @BindingAdapter("bind:imageUrl")
     public static void loadImage(ImageView view, String imageUrl) {
         Picasso.with(view.getContext())
                 .load(imageUrl)

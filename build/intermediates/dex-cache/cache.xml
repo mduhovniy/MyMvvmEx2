@@ -3,138 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="386020d47b6bb307d6bee049c5d74a4b55a992d0">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7f6d378a35c1487e0607f215114adc57282742e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
         <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_89a6dd9bf88843c84bb6d79642180416da57995c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.5_3500014a800652292341c41515e8288318845229/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_0928064e05fdd75831dea1500c78d025d6a3fc84/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_c3b6a230bb207e16e3a77c94d0c8d808fbf9a7bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.0_f03af74b866b807770a572730f547d413107206f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_de9cf94e5529287991a2c6b168d73cd3c9ebcc68/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_b7418cd44d2623d44f4ff5e65efac7eecbef349f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_5e74594227350e5a35343a31e603a1c269d4f756/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_0869e1a04ce1275551b41107dd1917c33870a289/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_52dddd7b63099e1ee6fc1643c7d2e9405b3c446b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_ffc2320fe936eaee98a9bc3f9c88704547c619e1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_18cfea50d0b6a41dc575219de0da65b17c744404/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d0411b4d6d863134b3e4971f86342bc121546991/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_76804d4ef3c2166d53db884ec496c75acd37715a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="54a7c3a23650bfa05672a5fbc3c5f8ae4fea4935">
-        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7f6d378a35c1487e0607f215114adc57282742e9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.5_3500014a800652292341c41515e8288318845229/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -192,6 +84,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_0928064e05fdd75831dea1500c78d025d6a3fc84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_c3b6a230bb207e16e3a77c94d0c8d808fbf9a7bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -201,12 +111,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.0_f03af74b866b807770a572730f547d413107206f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
         <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_c3115b463e82f66096ec09641919769ad08e1b8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_de9cf94e5529287991a2c6b168d73cd3c9ebcc68/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -237,6 +165,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_b7418cd44d2623d44f4ff5e65efac7eecbef349f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_5e74594227350e5a35343a31e603a1c269d4f756/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -255,6 +201,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_0869e1a04ce1275551b41107dd1917c33870a289/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -264,12 +219,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_52dddd7b63099e1ee6fc1643c7d2e9405b3c446b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_ffc2320fe936eaee98a9bc3f9c88704547c619e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="96c7b1f898ab9ea59495ad44e9b2226c0b7039de">
+        sha1="95758d04069a1371982ee7f38f620375cf8dbc6b">
         <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a8ff401866ac6d02353a6a8ef71ec0bd4cb2a9f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_18cfea50d0b6a41dc575219de0da65b17c744404/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -282,12 +264,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_d0411b4d6d863134b3e4971f86342bc121546991/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
         <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_c912324c90b5015b5c89cfb6d0f9186418805810/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/maximduhovniy/StudioProjects/MyMvvmEx/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.databinding-adapters-1.2.1_76804d4ef3c2166d53db884ec496c75acd37715a/classes.dex" />
     </item>
     <item
         is-multidex="true"
