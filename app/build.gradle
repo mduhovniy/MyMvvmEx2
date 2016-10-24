@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+// included plugin for Lambda expression
+apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion rootProject.ext.androidCompileSdkVersion
@@ -15,7 +17,10 @@ android {
     dataBinding {
         enabled = true
     }
-
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -40,6 +45,7 @@ dependencies {
     compile dependencies.rxAndroid
     compile dependencies.rxJava
     compile dependencies.circleImageView
+    compile dependencies.rxBinding
 
     testCompile dependencies.jUnit
     testCompile dependencies.mockito

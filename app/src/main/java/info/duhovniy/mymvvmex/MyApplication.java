@@ -31,7 +31,7 @@ public class MyApplication extends Application {
 
     public GitService getGitService() {
         if(gitService == null)
-            gitService = GitService.Factory.create();
+            gitService = GitService.Factory.create(getDefaultScheduler());
         return gitService;
     }
 

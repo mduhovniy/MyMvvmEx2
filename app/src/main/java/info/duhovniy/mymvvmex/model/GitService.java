@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Url;
 import rx.Observable;
-import rx.schedulers.Schedulers;
+import rx.Scheduler;
 
 
 public interface GitService {
@@ -22,12 +22,12 @@ public interface GitService {
     Observable<User> userFromUrl(@Url String userUrl);
 
     class Factory {
-        public static GitService create() {
+        public static GitService create(Scheduler defaultScheduler) {
             Retrofit retrofit = new Retrofit.Builder()
                     .baseUrl("https://api.github.com/")
                     .addConverterFactory(GsonConverterFactory.create())
-                    // RxJavaCallAdapterFactory.create();    changed to async!
-                    .addCallAdapterFactory(RxJavaCallAdapterFactory.createWithScheduler(Schedulers.io()))
+                    // RxJavaCallAdapterFactory.create()  <- changed to async!
+                    .addCallAdapterFactory(RxJavaCallAdapterFactory.createWithScheduler(defaultScheduler))
                     .build();
             return retrofit.create(GitService.class);
         }

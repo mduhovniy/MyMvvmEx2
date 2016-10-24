@@ -28,10 +28,10 @@ public class RepoViewModel implements ViewModel {
     private Context context;
     private Subscription subscription;
 
-    public ObservableField<String> ownerName;
-    public ObservableField<String> ownerEmail;
-    public ObservableInt ownerEmailVisibility;
-    public ObservableInt ownerLayoutVisibility;
+    public final ObservableField<String> ownerName;
+    public final ObservableField<String> ownerEmail;
+    public final ObservableInt ownerEmailVisibility;
+    public final ObservableInt ownerLayoutVisibility;
 
     public RepoViewModel(Context context, final Repo repository) {
         this.repository = repository;

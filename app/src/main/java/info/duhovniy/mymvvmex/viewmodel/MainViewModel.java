@@ -27,12 +27,11 @@ public class MainViewModel implements ViewModel {
 
     private static final String TAG = "MainViewModel";
 
-    public ObservableInt infoMessageVisibility;
-    public ObservableInt progressVisibility;
-    public ObservableInt recyclerViewVisibility;
-    public ObservableInt searchButtonVisibility;
-    public ObservableField<String> infoMessage;
-
+    public final ObservableInt infoMessageVisibility;
+    public final ObservableInt progressVisibility;
+    public final ObservableInt recyclerViewVisibility;
+    public final ObservableInt searchButtonVisibility;
+    public final ObservableField<String> infoMessage;
 
     private Context context;
     private Subscription subscription;
@@ -46,13 +45,13 @@ public class MainViewModel implements ViewModel {
         progressVisibility = new ObservableInt(View.INVISIBLE);
 
         editTextUsernameValue = MyApplication.get(context).getSearchHint();
-        if(editTextUsernameValue == null || editTextUsernameValue.equals(""))
+        if (editTextUsernameValue == null || editTextUsernameValue.equals(""))
             searchButtonVisibility = new ObservableInt(View.GONE);
         else
             searchButtonVisibility = new ObservableInt(View.VISIBLE);
 
         repositories = MyApplication.get(context).getRepoList();
-        if(repositories != null) {
+        if (repositories != null) {
             infoMessageVisibility = new ObservableInt(View.INVISIBLE);
             recyclerViewVisibility = new ObservableInt(View.VISIBLE);
         } else {
@@ -72,6 +71,7 @@ public class MainViewModel implements ViewModel {
         if (subscription != null && !subscription.isUnsubscribed())
             subscription.unsubscribe();
         MyApplication.get(context).saveSearchHint(editTextUsernameValue);
+        editTextUsernameValue = null;
         subscription = null;
         context = null;
         dataListener = null;
@@ -79,9 +79,8 @@ public class MainViewModel implements ViewModel {
 
     public boolean onSearchAction(TextView view, int actionId, KeyEvent event) {
         if (actionId == EditorInfo.IME_ACTION_SEARCH) {
-            String username = view.getText().toString();
-            if (username.length() > 0)
-                loadGithubRepos(username);
+            if (editTextUsernameValue.length() > 0)
+                loadGithubRepos(editTextUsernameValue);
             return true;
         }
         return false;
@@ -99,13 +98,12 @@ public class MainViewModel implements ViewModel {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
-                editTextUsernameValue = charSequence.toString();
-                searchButtonVisibility.set(charSequence.length() > 0 ? View.VISIBLE : View.GONE);
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
-
+                editTextUsernameValue = editable.toString();
+                searchButtonVisibility.set(editable.length() > 0 ? View.VISIBLE : View.GONE);
             }
         };
     }
