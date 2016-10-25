@@ -19,8 +19,8 @@ public class MyApplication extends Application {
     private List<Repo> repositories;
     private String searchHint;
 
-    public static MyApplication get(Context contex) {
-        return (MyApplication) contex.getApplicationContext();
+    public static MyApplication get(Context context) {
+        return (MyApplication) context.getApplicationContext();
     }
 
     public Scheduler getDefaultScheduler() {

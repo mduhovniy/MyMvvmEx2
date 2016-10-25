@@ -1,4 +1,4 @@
-package info.duhovniy.mymvvmex;
+package info.duhovniy.mymvvmex.view;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import java.util.Collections;
 import java.util.List;
 
+import info.duhovniy.mymvvmex.R;
 import info.duhovniy.mymvvmex.databinding.ItemRepoBinding;
 import info.duhovniy.mymvvmex.model.Repo;
 import info.duhovniy.mymvvmex.viewmodel.ItemRepoViewModel;

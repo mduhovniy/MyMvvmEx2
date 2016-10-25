@@ -11,7 +11,6 @@ import android.view.inputmethod.InputMethodManager;
 import java.util.List;
 
 import info.duhovniy.mymvvmex.R;
-import info.duhovniy.mymvvmex.RepositoryAdapter;
 import info.duhovniy.mymvvmex.databinding.MainActivityBinding;
 import info.duhovniy.mymvvmex.model.Repo;
 import info.duhovniy.mymvvmex.viewmodel.MainViewModel;
@@ -28,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements MainViewModel.Dat
         binding = DataBindingUtil.setContentView(this, R.layout.main_activity);
         mainViewModel = new MainViewModel(this, this);
         binding.setViewModel(mainViewModel);
+        mainViewModel.setObservers(binding.editTextUsername, binding.buttonSearch);
         setSupportActionBar(binding.toolbar);
         setupRecyclerView(binding.reposRecyclerView);
     }

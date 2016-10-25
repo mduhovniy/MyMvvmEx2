@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="info.duhovniy.mymvvmex.viewmodel.MainViewModel"/>
+            type="info.duhovniy.mymvvmex.viewmodel.MainViewModel" />
     </data>
 
     <RelativeLayout
@@ -20,7 +20,7 @@
             android:layout_height="110dp"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/github_logo"/>
+            android:src="@drawable/github_logo" />
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -29,7 +29,7 @@
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
         <RelativeLayout
             android:id="@+id/layout_search"
@@ -50,10 +50,9 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="5dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
-                android:onClick="@{viewModel.onClickSearch}"
                 android:src="@drawable/ic_search_white_36dp"
                 app:visibility="@{viewModel.searchButtonVisibility}"
-                tools:visibility="visible"/>
+                tools:visibility="visible" />
 
 
             <EditText
@@ -64,10 +63,9 @@
                 android:hint="@string/hit_username"
                 android:imeOptions="actionSearch"
                 android:inputType="text"
-                android:onEditorAction="@{viewModel.onSearchAction}"
+                android:onEditorAction="@{viewModel::onSearchAction}"
                 android:textColor="@color/white"
-                android:theme="@style/LightEditText"
-                app:addTextChangedListener="@{viewModel.usernameEditTextWatcher}"/>
+                android:theme="@style/LightEditText" />
 
         </RelativeLayout>
 
@@ -78,7 +76,7 @@
             android:layout_below="@id/layout_search"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            app:visibility="@{viewModel.progressVisibility}"/>
+            app:visibility="@{viewModel.progressVisibility}" />
 
         <TextView
             android:id="@+id/text_info"
@@ -93,7 +91,7 @@
             android:text="@{viewModel.infoMessage}"
             android:textColor="@color/secondary_text"
             android:textSize="18sp"
-            app:visibility="@{viewModel.infoMessageVisibility}"/>
+            app:visibility="@{viewModel.infoMessageVisibility}" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/repos_recycler_view"
@@ -105,7 +103,7 @@
             android:paddingTop="@dimen/vertical_margin_half"
             android:scrollbars="vertical"
             app:visibility="@{viewModel.recyclerViewVisibility}"
-            tools:listitem="@layout/item_repo"/>
+            tools:listitem="@layout/item_repo" />
 
     </RelativeLayout>
 
