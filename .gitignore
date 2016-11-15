@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/libraries/baseLibrary_2_2_2.xml
+.idea/libraries/compilerCommon_2_2_2.xml
+.idea/libraries/compiler_2_2_2.xml
+.idea/libraries/rxbinding_0_4_0.xml
+.idea/workspace.xml

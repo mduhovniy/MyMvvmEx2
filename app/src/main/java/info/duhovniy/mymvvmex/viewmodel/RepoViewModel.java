@@ -14,10 +14,8 @@ import info.duhovniy.mymvvmex.MyApplication;
 import info.duhovniy.mymvvmex.R;
 import info.duhovniy.mymvvmex.model.GitService;
 import info.duhovniy.mymvvmex.model.Repo;
-import info.duhovniy.mymvvmex.model.User;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action1;
 
 
 public class RepoViewModel implements ViewModel {
@@ -76,15 +74,12 @@ public class RepoViewModel implements ViewModel {
         subscription = githubService.userFromUrl(url)
                 .subscribeOn(application.getDefaultScheduler())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(new Action1<User>() {
-                    @Override
-                    public void call(User user) {
-                        Log.i(TAG, "Full user data loaded " + user);
-                        ownerName.set(user.name);
-                        ownerEmail.set(user.email);
-                        ownerEmailVisibility.set(user.hasEmail() ? View.VISIBLE : View.GONE);
-                        ownerLayoutVisibility.set(View.VISIBLE);
-                    }
+                .subscribe(user -> {
+                    Log.i(TAG, "Full user data loaded " + user);
+                    ownerName.set(user.name);
+                    ownerEmail.set(user.email);
+                    ownerEmailVisibility.set(user.hasEmail() ? View.VISIBLE : View.GONE);
+                    ownerLayoutVisibility.set(View.VISIBLE);
                 });
     }
 }
